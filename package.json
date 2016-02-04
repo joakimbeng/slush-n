@@ -1,6 +1,6 @@
 {
   "name": "slush-n",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A Slush generator for creating Node modules",
   "main": "src/index.js",
   "preferGlobal": true,
