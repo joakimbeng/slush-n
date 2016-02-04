@@ -1,0 +1,67 @@
+{
+  "name": "slush-n",
+  "version": "0.1.0",
+  "description": "A Slush generator for creating Node modules",
+  "main": "src/index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "xo",
+    "readme": "pj2md -o README.md -f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joakimbeng/slush-n.git"
+  },
+  "keywords": [
+    "slushgenerator",
+    "node",
+    "npm",
+    "module",
+    "npm scripts",
+    "xo",
+    "ava"
+  ],
+  "author": "Joakim Carlstein <joakim.carlstein@gmail.com> (http://joakim.beng.se/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joakimbeng/slush-n/issues"
+  },
+  "homepage": "https://github.com/joakimbeng/slush-n#readme",
+  "dependencies": {
+    "ava-init": "^0.1.3",
+    "github-username": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-conflict": "^0.4.0",
+    "gulp-json-editor": "^2.2.1",
+    "inquirer": "^0.11.4",
+    "merge-stream": "^1.0.0",
+    "object-omit": "^1.0.0",
+    "parse-author": "^0.2.0",
+    "pify": "^2.3.0",
+    "promise-all": "^1.0.0",
+    "read-pkg": "^1.1.0",
+    "stringify-author": "^0.1.3",
+    "validate-npm-package-name": "^2.2.2",
+    "write-pkg": "^1.0.0",
+    "xo-init": "^0.3.6"
+  },
+  "devDependencies": {
+    "xo": "^0.12.1",
+    "pj2md": "^4.2.0"
+  },
+  "peerDependencies": {
+    "slush": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node"
+    ]
+  },
+  "pj2md": {
+    "api": false,
+    "module": false,
+    "postinstall": "_usage.md",
+    "prelicense": "_youll_get.md"
+  }
+}
